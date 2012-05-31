@@ -2,7 +2,8 @@
 	font-family: "Helvetica Neue", sans-serif;
 	font-size:1.75em;
 	background:#fff;
-	
+	$color: #8e1d08;
+
 	.slide {
 		background:#fff;
 		
@@ -11,7 +12,7 @@
 		}
 
 		h2 {
-			color:#c00;
+			color:$color;
 			border-bottom-color:#ccc;
 		}
 
@@ -46,12 +47,12 @@
 			}
 		}
 
-		::-moz-selection{ background:#c00; color:#fff; }
-		::selection { background:#c00; color:#fff; }
+		::-moz-selection{ background:$color; color:#fff; }
+		::selection { background:$color; color:#fff; }
 
 		a {
 			&, &:hover, &:focus, &:active, &:visited {
-				color:#c00;
+				color:$color;
 				text-decoration:none;
 			}
 
@@ -86,7 +87,7 @@
 		}
 		
 		&:hover, &:focus {
-			background:#c00;
+			background:$color;
 			text-decoration:none;
 		}
 	}
